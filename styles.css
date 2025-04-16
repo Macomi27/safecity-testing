@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0b2c45;
+  }
+  
+  .offer-section {
+    background-color: #0b2c45;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .offer-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon img{
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .icon {
+    background-color: white;
+    color: #0b2c45;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .consult-btn {
+    margin-top: 50px;
+    padding: 12px 30px;
+    background-color: white;
+    color: #0b2c45;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .consult-btn:hover{
+    background-color:#55a5e2;
+    color: white;
+  }
