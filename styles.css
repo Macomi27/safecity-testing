@@ -55,3 +55,66 @@
     background-position: center;
 }
 
+.site-footer {
+    background-color: #17324f; 
+    color: white;
+    padding: 20px 0;
+    width: 100%; 
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.footer-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 90px;
+}
+
+.footer-phone {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    font-size: 30px;
+  }
+  
+  .footer-phone span {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 8px;
+    
+  }
+  .footer-phone, footer-links {
+    gap: 150px;
+  }
+  
+  .footer-links a,
+  .footer-phone p {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+  }
+  
+  .footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .footer-socials a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .footer-socials a:hover {
+    color: #00aced;
+  }
