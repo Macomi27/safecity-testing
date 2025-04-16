@@ -73,37 +73,45 @@
     justify-content: space-between;  
     align-items: center; 
     flex-wrap: wrap; 
-    gap: 10px;
+    gap: 90px;
 }
 
 .footer-phone {
     display: flex;
     align-items: center;
-    gap: 20px; /* spacing between phone and email */
+    gap: 30px; 
+    font-size: 30px;
   }
   
   .footer-phone span {
     display: flex;
     align-items: center;
-    gap: 5px; /* spacing between icon and text */
     color: white;
+    gap: 8px;
+    
+  }
+  .footer-phone, footer-links {
+    gap: 150px;
   }
   
   .footer-links a,
   .footer-phone p {
     color: white;
     text-decoration: none;
+    font-size: 30px;
+    
+    
   }
   
   .footer-socials {
     display: flex;
     align-items: center;
-    gap: 30px; /* space between social icons */
+    gap: 30px;
   }
   
   .footer-socials a {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
   }
   
