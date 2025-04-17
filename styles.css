@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+   
 }
+
 body {
-    margin: 0;
     font-family: 'Segoe UI', sans-serif;
   }
   
@@ -411,101 +411,30 @@ img{
     }
 }
 
-
-.site-footer {
-    background-color: #17324f; 
-    color: white;
-    padding: 20px 0;
-    width: 100%; 
-    height: 200px;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-}
-
-.footer-container {
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;  
-    align-items: center; 
-    flex-wrap: wrap; 
-    gap: 90px;
-}
-
-.footer-phone {
-    display: flex;
-    align-items: center;
-    gap: 30px; 
-    font-size: 30px;
-  }
-  
-  .footer-phone span {
-    display: flex;
-    align-items: center;
-    color: white;
-    gap: 8px;
-    
-  }
-  .footer-phone, footer-links {
-    gap: 150px;
-  }
-  
-  .footer-links a,
-  .footer-phone p {
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    
-    
-  }
-  
-  .footer-socials {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
-  
-  .footer-socials a {
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
-  }
-  
-  .footer-socials a:hover {
-    color: #00aced;
-  }
-
-/* write to us */
 .contactUs {
-    background-image: url(./assets/contact.webp);
+    background-image: url("./assets/contact.webp");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Montserrat";
     color: rgb(245, 245, 245);
-   margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center; 
   }
 .contactUs h1{
     text-align: center;
-    
   margin-top:50px;
     font-weight: 700;
-  font-style: normal;
     font-size: 50px;
     line-height: 60px;
 }
-.contactUs .comment{
- width: 90%;
- max-width: 800px;
- display: block;
- justify-content: center;
+.comment{
+ width: 60%;
+margin-inline: auto;
 
 }
-.comment  input,.comment textarea{
-    width:90%;
+.comment input,.comment textarea{
+    width:100%;
     height: 70px;
     padding:15px;
     font-family: "Montserrat";
@@ -570,4 +499,67 @@ margin:0;
     justify-content: center;
 }
 
-/* write to us */
+
+.site-footer {
+    background-color: #17324f; 
+    color: white;
+    padding: 20px 0;
+    width: 100%; 
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.footer-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 90px;
+}
+
+.footer-phone {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    font-size: 30px;
+  }
+  
+  .footer-phone span {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 8px;
+    
+  }
+  .footer-phone, footer-links {
+    gap: 150px;
+  }
+  
+  .footer-links a,
+  .footer-phone p {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+  }
+  
+  .footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .footer-socials a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .footer-socials a:hover {
+    color: #00aced;
+  }
