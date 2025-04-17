@@ -55,6 +55,280 @@
     background-position: center;
 }
 
+
+/*--------------------------------------Effect Of Work Section---------------------------------------------------*/
+.effect-container{
+    background-color: rgb(245, 245, 245);
+    opacity: 1;
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    box-shadow: none;
+    height: 100%;
+    background-image: none;
+    filter: none;
+    
+    }
+
+/*----------------------------------Image Div--------------------------------------------*/
+.effect-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 120px 50px;
+    gap: 70px;
+    
+}
+.pictures{
+    position: relative;
+}
+.first-img{
+    width: 450px;
+    height:500px ;
+
+}
+.second-img{
+    width:320px;
+    height: 560px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    padding: 30px;
+    background-color: rgb(245, 245, 245);
+
+}
+.third-img{
+    width: 320px;
+    height: 270px;
+    position: absolute;
+    right: 250px;
+    top: 425px;
+    padding: 30px;
+    background-color: rgb(245, 245, 245);
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: none;
+}
+
+/*----------------------Text Div--------------------------------------------------------*/
+.texts-box{
+    font-family: "Montserrat";
+    padding-inline: 25px;
+}
+.texts-box>h2{
+    font-size: 3rem;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+.text{
+    display: flex;
+    gap: 15px;
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 200px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #02243a;
+    opacity: 0.9;
+    font-size: 1.5rem;
+    
+}
+.text-body{
+    margin-bottom: 30px;
+    
+}
+.text-body h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.text-body p{
+    font-size: 18px;
+    line-height: 30px;
+}
+@media screen and (max-width: 575px){
+    .effect-container{
+        height: 100%;
+        position: relative;
+    }
+ .effect-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+ }
+ .texts-box{
+    padding-inline: 10px;
+    order: 1;
+    margin-bottom: 10px;
+ }
+ .texts-box>h2{
+    font-size: 2rem;
+    text-align: center;
+ }
+    .pictures{
+        order: 2;
+        width: 100%;
+        
+    }
+   .first-img, .second-img{
+    display: none;
+   }
+   .third-img{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 30px ;
+    width: 100%;
+   }
+   img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    aspect-ratio: 1;
+   }
+   .text{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    
+   }
+  .num{
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  .texts-body{
+    margin-bottom: 0px;
+  }
+  .text-body h3{
+    text-align: center;
+  }
+  .text-body p{
+    font-size: 16px;
+
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px){
+    .effect-container{
+       height: 250vh;
+       width: 100%;
+    }
+    .effect-box{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 40px;
+        padding: 70px 50px;
+    }
+    .texts-box{
+        order: 1;
+        padding-inline: 90px;
+    }
+    .num{
+        width: 200px;
+        height: 60px;
+    }
+    .pictures{
+        order: 2;
+        padding-inline: 0;
+    }
+    .first-img{
+        width: 500px;
+        height: 450px;
+       
+    }
+    .second-img{
+        width:350px;
+        height: 370px;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        padding: 30px;
+        background-color: rgb(245, 245, 245);
+    }
+    .third-img{
+        width: 450px;
+        height: 270px;
+        position: absolute;
+        right: 200px;
+        top: 200px;
+        padding: 0px;
+        background-color: rgb(245, 245, 245);
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .effect-box{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        padding-inline: 40px;
+        padding: 70px 0px;
+    }
+    .texts-box{
+        order: 1;
+        padding-inline: 200px;
+    }
+    .num{
+        width: 250px;
+        height: 75px;
+    }
+    .texts-box>h2{
+        font-size: 3.5rem;
+        opacity: 0.8;
+        margin-bottom: 80px;
+        margin-left: 40px;
+    }
+    .text-body h3{
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    .text-body p{
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .pictures{
+        order: 2;
+        padding-inline: 0;
+    }
+    .first-img{
+        width: 600px;
+        height: 450px;
+        
+    }
+    .second-img{
+        width:350px;
+        height: 370px;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        padding: 30px;
+        background-color: rgb(245, 245, 245);
+    }
+    .third-img{
+        width: 450px;
+        height: 270px;
+        position: absolute;
+        right: 200px;
+        top: 200px;
+        padding: 0px;
+        background-color: rgb(245, 245, 245);
+    }
+}
+
+
 .site-footer {
     background-color: #17324f; 
     color: white;
