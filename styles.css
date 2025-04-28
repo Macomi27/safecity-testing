@@ -679,7 +679,7 @@ margin:0;
     .map-container {
         height: 300px;
     }
-
+}
 .site-footer {
     background-color: rgb(29, 55, 82); 
     color: white;
@@ -695,7 +695,6 @@ margin:0;
     display: flex;
     justify-content: space-between;  
     align-items: center; 
-    border: 1px solid blue;
 }
 
 .footer-phone{
@@ -729,4 +728,3 @@ margin:0;
   }
   
   
-}
