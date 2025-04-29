@@ -68,7 +68,7 @@
     font-size: 32px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 40px; 
 }
 
 .opinions-flex{
@@ -87,9 +87,6 @@
     gap: 20px;
 }
 
-.op-img{
-    width: 200px;
-}
 .op-img img{
     width: 100%;
     aspect-ratio: 1/1;
@@ -106,6 +103,7 @@
 .op-det p{
     font-size: 18px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .op-det h4{
