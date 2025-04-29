@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./styles.css" />
     <link
       rel="stylesheet"
@@ -13,55 +26,259 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <header></header>
-    <body>
-      <div class="about-section">
-        <div class="aboutus">
-          <h2>About us</h2>
-        </div>
-        <div class="grid-container">
-          <div id="item1"></div>
-          <div class="grid-item">
-            <i class="fa-regular fa-square-check icon"></i>
-            <h3>A personalized approach</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="grid-item">
-            <i class="fa-solid fa-code icon"></i>
-            <h3>Technologies</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="grid-item">
-            <i class="fa-regular fa-clock icon"></i>
-            <h3>Timeliness</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class="grid-item">
-            <i class="fa-solid fa-magnifying-glass-chart icon"></i>
-            <h3>Professionalism</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-    </body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-image"><img src="./assets/logo.webp" alt="logo" /></div>
 
-    <footer class="site-footer">
-      <div class="footer-container">
-        <div class="footer-phone">
-          <i class="fas fa-phone"></i>
-          <p>+485236898</p>
+      <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="About Us">About Us</a></li>
+        <li><a href="Offer">Offer</a></li>
+        <li><a href="Contact">Contact</a></li>
+      </ul>
+      <div class="nav-btn"><button>+485 236 898</button></div>
+    </nav>
+    <div class="Hero">
+      <div>
+        <img
+          src="https://l4ceve.yourbrand.studio/files/dynamicContent/sites/l4ceve/images/en/webpage_6/lrrudw4l/element_163/rwdMode_1/1368x853/main.webp"
+          alt="image"
+        />
+      </div>
+      <h1>Let us inspire you</h1>
+      <p>We help companies achieve ambitious goals</p>
+      <button
+        style="
+          background-color: rgb(40, 40, 87);
+          font-family: 'montsserat' sans-serif;
+          color: white;
+          font-size: 20px;
+        "
+      >
+        CONSULTATION
+      </button>
+      <button style="margin-left: 10px">OFFER</button>
+    </div>
+  </header>
+  <body>
+    <div class="about-section">
+      <div class="aboutus">
+        <h2>About us</h2>
+      </div>
+      <div class="grid-container">
+        <div id="item1"></div>
+        <div class="grid-item">
+          <i class="fa-regular fa-square-check icon-grid"></i>
+          <h3>A personalized approach</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="footer-phone">
-          <i class="fas fa-envelope"></i>
-          <p>contact@markeco.com</p>
+        <div class="grid-item">
+          <i class="fa-solid fa-code icon-grid"></i>
+          <h3>Technologies</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="footer-socials">
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <div class="grid-item">
+          <i class="fa-regular fa-clock icon-grid"></i>
+          <h3>Timeliness</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="grid-item">
+          <i class="fa-solid fa-magnifying-glass-chart icon-grid"></i>
+          <h3>Professionalism</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
-    </footer>
+    </div>
+
+    <section class="offer-section">
+      <h2>Offer</h2>
+      <div class="services">
+        <div class="service">
+          <div class="flag">
+            <i class="fa-regular fa-flag icon-service"></i>
+          </div>
+          <div class="icon-text">
+            <h3>Service 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="flag">
+            <i class="fa-regular fa-flag icon-service"></i>
+          </div>
+          <div class="icon-text">
+            <h3>Service 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="flag">
+            <i class="fa-regular fa-flag icon-service"></i>
+          </div>
+          <div class="icon-text">
+            <h3>Service 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="flag">
+            <i class="fa-regular fa-flag icon-service"></i>
+          </div>
+          <div class="icon-text">
+            <h3>Service 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="flag">
+            <i class="fa-regular fa-flag icon-service"></i>
+          </div>
+          <div class="icon-text">
+            <h3>Service 5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="flag">
+            <i class="fa-regular fa-flag icon-service"></i>
+          </div>
+          <div class="icon-text">
+            <h3>Service 6</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <button class="consult-btn">CONSULTATION</button>
+    </section>
+
+    <!--------------------Effects of work Section-------------------------------------------->
+    <section class="effect-container">
+      <div class="effect-box">
+        <div class="pictures">
+          <div class="first-img">
+            <img
+              src="https://l4ceve.yourbrand.studio/files/dynamicContent/sites/l4ceve/images/en/webpage_6/lrrudw4l/element_205/rwdMode_1/447x493/company_2.webp"
+              alt=""
+            />
+          </div>
+          <div class="second-img">
+            <img
+              src="https://l4ceve.yourbrand.studio/files/dynamicContent/sites/l4ceve/images/en/webpage_6/lrrudw4l/element_204/rwdMode_1/279x473/company_3.webp"
+              alt=""
+            />
+          </div>
+          <div class="third-img">
+            <img
+              src="https://l4ceve.yourbrand.studio/files/dynamicContent/sites/l4ceve/images/en/webpage_6/lrrudw4l/element_203/rwdMode_1/256x207/company_1.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="texts-box">
+          <h2>Effects of work</h2>
+          <!-----------------------------1------------------------------------------------>
+          <div class="text one">
+            <div class="num"><h2>1</h2></div>
+            <div class="text-body">
+              <h3>Effect 1</h3>
+              <p>
+                The cooperation will help you reach the set goals, for example,
+                increasing the number of customers, prestige or trust in the
+                company among the audience.
+              </p>
+            </div>
+          </div>
+          <!-----------------------2----------------------------------------->
+          <div class="text one">
+            <div class="num"><h2>2</h2></div>
+            <div class="text-body">
+              <h3>Effect 2</h3>
+              <p>
+                The cooperation will help you reach the set goals, for example,
+                increasing the number of customers, prestige or trust in the
+                company among the audience.
+              </p>
+            </div>
+          </div>
+          <!---------------------------------3---------------------------------->
+          <div class="text one">
+            <div class="num"><h2>3</h2></div>
+            <div class="text-body">
+              <h3>Effect 3</h3>
+              <p>
+                The cooperation will help you reach the set goals, for example,
+                increasing the number of customers, prestige or trust in the
+                company among the audience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contactUs">
+      <h1>Write to us</h1>
+      <div class="comment">
+        <div class="name">
+          <label for="">Name:</label><br />
+          <input type="text" placeholder="John Smith" />
+        </div>
+
+        <div class="email">
+          <label for="">Your e-mail:</label><br />
+          <input type="email" placeholder="your@email.com" /><br />
+        </div>
+
+        <div class="message">
+          <label for="">Message:</label><br />
+          <textarea placeholder="Message..."></textarea>
+        </div>
+
+        <p>Information</p>
+        <div class="checkbox">
+          <input type="checkbox" />
+          <p>I consent to the processing of my personal data</p>
+        </div>
+      </div>
+      <div class="send">
+        <button>SEND</button>
+      </div>
+    </section>
+
+    <section class="contact-map-section">
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p>Consulting Group</p>
+        <p>Golden St. 564</p>
+        <p>00-453 Warsaw</p>
+      </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6381562290743!2d20.99744225!3d52.2337325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ece00000001:0xffffffffffffffff!2sZłota%2056%2C%2000-453%20Warszawa%2C%20Poland!5e0!3m2!1sen!2sus!4v1234567890000"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
   </body>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-phone">
+        <i class="fas fa-phone"></i>
+        <p>+485236898</p>
+      </div>
+      <div class="footer-phone">
+        <i class="fas fa-envelope"></i>
+        <p>contact@markeco.com</p>
+      </div>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
 </html>
