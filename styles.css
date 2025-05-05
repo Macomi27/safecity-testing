@@ -570,7 +570,7 @@ img {
 }
 
 .opinions-section {
-    padding-block: 50px;
+    padding-block: 70px 100px;
 }
 
 .opinions {
@@ -580,12 +580,17 @@ img {
     margin-bottom: 60px;
 }
 
+.opinion-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
 .opinions-flex {
     width: 90%;
     margin-inline: auto;
     display: flex;
     gap: 50px;
-    margin-block: 20px 50px;
 }
 
 .opinion-item {
@@ -620,7 +625,7 @@ img {
 
 .op-det h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: rgb(29, 55, 82);
 }
 
